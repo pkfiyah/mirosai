@@ -1,0 +1,15 @@
+{
+  "name": "miros",
+  "version": "0.0.1",
+  "description": "Server for Miros AI",
+  "main": "index.js",
+  "repository": "https://github.com/pkfiyah/mirosai",
+  "author": "Mitchell Richardson <mitch.richardson.dev@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "apiai": "^4.0.3",
+    "express": "^4.16.2",
+    "socketio": "^1.0.0"
+  }
+}
