@@ -1,0 +1,9 @@
+{
+  "port": 9000,
+  "package-json": "../package.json",
+  "log": {
+    "level": "info"
+  },
+  "server": {
+  }
+}
