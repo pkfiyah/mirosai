@@ -5,5 +5,8 @@
     "level": "info"
   },
   "server": {
+    "miros": {
+      "token": "72e0b0d6794241009912c8a8190858e1"
+    }
   }
 }

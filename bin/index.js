@@ -12,8 +12,10 @@ const createApp = ({pkg}) => {
 
     const serverConfig = config.get('server')
 
+    console.log(serverConfig)
+
     const app = express()
-    const { server, onStart } = createServer({...serverConfig, pkg})
+    const { server, onStart } = createServer({pkg, miros: serverConfig.miros})
 
     app.use(server)
 
@@ -32,7 +34,7 @@ if (require.main === module) {
 
     try {
         const { app, onStart } = createApp({pkg})
-
+        console.log('App creation complete')
         onStart()
             .then(() => {
                 console.log('Completed startup hooks.')
